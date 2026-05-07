@@ -1,17 +1,116 @@
-# user_profile_app
+# User Profile App (Flutter)
 
-A new Flutter project.
+## Project Overview
 
-## Getting Started
+This project is a User Profile Screen developed using Flutter and Dart.
+It demonstrates how to design a clean and structured UI using StatelessWidget with static data.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Objective
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+To build a simple profile screen that displays user information such as:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Profile Image
+* Name
+* Bio/Description
+* Contact Details
+* Follow Button (UI only)
+
+---
+
+## Technologies Used
+
+* Flutter
+* Dart
+* Material UI Widgets
+
+---
+
+## Features
+
+* Profile image displayed at the top
+* User name as a heading
+* Short bio/description
+* “Details” section including:
+
+  * Email
+  * Phone number
+* Follow button (no functionality required)
+* Clean and responsive UI
+
+---
+
+## Widgets Used
+
+* Scaffold
+* AppBar
+* Column
+* Row
+* Text
+* Image / CircleAvatar
+* Container
+* ElevatedButton
+
+---
+
+## Project Structure
+
+```
+profile_app/
+│
+├── lib/
+│   └── main.dart
+│
+├── android/
+├── ios/
+├── pubspec.yaml
+└── README.md
+```
+
+---
+
+## How to Run the Project
+
+1. Install Flutter
+2. Clone the repository
+3. Open project in VS Code or Android Studio
+4. Run the following commands:
+
+```
+flutter pub get
+flutter run
+```
+
+---
+
+## Output
+
+The app displays a user profile screen with image, name, bio, details, and a follow button.
+
+---
+
+## Note
+
+* This app uses StatelessWidget only
+* All data is static (hardcoded)
+* No backend or functionality is implemented
+
+---
+
+## Author
+
+Vedika Naik
+
+---
+
+## Conclusion
+
+This project helped in understanding:
+
+* Flutter UI design
+* Layout structuring
+* Use of StatelessWidget
+* Basic widget hierarchy
+
+This is a simple beginner-friendly Flutter UI project.

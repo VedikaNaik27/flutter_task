@@ -5,6 +5,8 @@ void main() {
 }
 
 class ProfileApp extends StatelessWidget {
+  const ProfileApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,6 +17,8 @@ class ProfileApp extends StatelessWidget {
 }
 
 class ProfileScreen extends StatelessWidget {
+  const ProfileScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -110,11 +114,11 @@ class ProfileScreen extends StatelessWidget {
               onPressed: () {
                 // No functionality required
               },
-              child: Text("Follow"),
               style: ElevatedButton.styleFrom(
                 padding: EdgeInsets.symmetric(
                     horizontal: 40, vertical: 15),
               ),
+              child: Text("Follow"),
             ),
           ],
         ),
