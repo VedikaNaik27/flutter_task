@@ -1,45 +1,61 @@
-User Profile App (Flutter)
-Project Overview
-This project is a User Profile Screen developed using Flutter and Dart. It demonstrates how to design a clean and structured UI using StatelessWidget with static data.
+# User Profile App
 
-Objective
-To build a simple profile screen that displays user information such as:
+## Project Overview
 
-Profile Image
-Name
-Bio/Description
-Contact Details
-Follow Button (UI only)
-Technologies Used
-Flutter
-Dart
-Material UI Widgets
-Features
-Profile image displayed at the top
+User Profile App is a simple Flutter application developed using Flutter and Dart. The project demonstrates how to create a clean, structured, and responsive user profile interface using `StatelessWidget` and static data.
 
-User name as a heading
+The application displays basic user information such as profile image, name, bio, contact details, and a Follow button.
 
-Short bio/description
+## Objective
 
-“Details” section including:
+The main objective of this project is to build a simple user profile screen and understand the basic structure of Flutter UI development.
 
-Email
-Phone number
-Follow button (no functionality required)
+The application demonstrates:
 
-Clean and responsive UI
+- Profile image display
+- User name and heading
+- Bio or description
+- Contact information
+- Follow button
+- Flutter widget hierarchy
+- StatelessWidget implementation
+- Basic responsive UI design
 
-Widgets Used
-Scaffold
-AppBar
-Column
-Row
-Text
-Image / CircleAvatar
-Container
-ElevatedButton
-Project Structure
+## Technologies Used
 
+- Flutter
+- Dart
+- Material UI Widgets
+
+## Features
+
+- Profile image displayed at the top
+- User name displayed as the main heading
+- Short bio or description
+- Details section containing:
+  - Email
+  - Phone number
+- Follow button with UI-only functionality
+- Clean and responsive user interface
+- Simple and beginner-friendly implementation
+
+## Widgets Used
+
+The following Flutter widgets are used in this project:
+
+- `Scaffold` – Provides the basic structure of the application screen.
+- `AppBar` – Displays the application title at the top.
+- `Column` – Arranges widgets vertically.
+- `Row` – Arranges widgets horizontally.
+- `Text` – Displays text content.
+- `Image` – Displays images.
+- `CircleAvatar` – Displays the profile image in a circular format.
+- `Container` – Used for styling and organizing UI elements.
+- `ElevatedButton` – Used to create the Follow button.
+
+## Project Structure
+
+```text
 profile_app/
 │
 ├── lib/
@@ -49,29 +65,3 @@ profile_app/
 ├── ios/
 ├── pubspec.yaml
 └── README.md
-
-How to Run the Project
-Install Flutter
-Clone the repository
-Open project in VS Code or Android Studio
-Run the following commands:
-flutter pub get
-flutter run
-Output
-The app displays a user profile screen with image, name, bio, details, and a follow button.
-
-Note
-This app uses StatelessWidget only
-All data is static (hardcoded)
-No backend or functionality is implemented
-Author
-Vedika Naik
-
-Conclusion
-This project helped in understanding:
-
-Flutter UI design
-Layout structuring
-Use of StatelessWidget
-Basic widget hierarchy
-This is a simple beginner-friendly Flutter UI project.
