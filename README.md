@@ -39,6 +39,7 @@ Image / CircleAvatar
 Container
 ElevatedButton
 Project Structure
+
 profile_app/
 │
 ├── lib/
@@ -48,6 +49,7 @@ profile_app/
 ├── ios/
 ├── pubspec.yaml
 └── README.md
+
 How to Run the Project
 Install Flutter
 Clone the repository
